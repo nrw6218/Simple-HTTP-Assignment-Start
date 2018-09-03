@@ -1,0 +1,30 @@
+{
+  "name": "simple-http-assignment",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.11.4",
+    "npm": "5.6.0"
+  },
+  "description": "Homework 1",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrw6218/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Nikolas Whiteside",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrw6218/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/nrw6218/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
